@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <title>NekoPlus Electronic</title>
+        <style>
+            body{
+                animation: gradientBody 2s;
+                animation-fill-mode: forwards;
+            }
+
+            .gradient-item{
+                animation: gradientItem 2s;
+                animation-delay: 1s;
+                animation-fill-mode: forwards;
+            }
+
+            @keyframes gradientBody{
+                100% {background: deepskyblue}
+            }
+
+            @keyframes gradientItem{
+                100% {opacity: 1}
+            }
+        </style>
+    </head>
+    <body>
+        <div style="text-align: center; color: white; margin-top: 10%;">
+            <p style="font-size: 96px;">NekoPlus Electronic</p>
+            <p style="opacity: 0; font-size: 48px;" class="gradient-item">An Open-Source Software Heaven</p>    
+        </div>
+    </body>
+</html>
